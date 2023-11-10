@@ -1,0 +1,100 @@
+body {
+    min-width: 372px;
+    text-decoration: none;
+}
+
+/*HEADER*/
+/* ----------- NAVBAR ----------- */
+
+
+
+.navbarBg{
+    background-color: #fff382;
+}
+
+
+/* ----------- ICONES ----------- */
+.iconeOwlFlight{
+    background-image: url('logo1_1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 50px;
+    /* espaço para o ícone */
+}
+.iconeCar {
+    background-image: url('cart3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 20px;
+    /* espaço para o ícone */
+}
+.iconeUser {
+    background-image: url('person-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 20px;
+    /* espaço para o ícone */
+}
+
+
+.input-group {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.input-group input {
+    background: transparent;
+    border: none;    
+}
+
+#barraPesquisa .form-control:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+/*HEADER*/
+
+
+.carrossel {
+    width: 100vw;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.card-background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}   
+
+.card {
+    height: 100%;
+}
+
+.card img {
+    height: 150px;
+}
+
+#footer {
+    background: #f9f8f8;
+    color: #0272F5;
+    padding-top: 15px;
+
+}
+
+.footer_coisa {
+    margin-bottom: 30px;
+}
+
+.linha {
+    border-top: 2px solid #0272F5;
+    padding-block: 20px;
+}
+
+/*-------------------------------------*/
+/*-------------------------------------*/
