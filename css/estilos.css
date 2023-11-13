@@ -1,25 +1,17 @@
-body {
-    min-width: 372px;
-    text-decoration: none;
-}
-
-/*HEADER*/
 /* ----------- NAVBAR ----------- */
-
-
-
 .navbarBg{
     background-color: #fff382;
 }
 
 
 /* ----------- ICONES ----------- */
-.iconeOwlFlight{
-    background-image: url('logo1_1.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-right: 50px;
-    /* espaço para o ícone */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    padding-right: 7px;
 }
 .iconeCar {
     background-image: url('cart3.svg');
@@ -37,6 +29,7 @@ body {
 }
 
 
+/* ----------- BARRA DE PESQUISA ----------- */
 .input-group {
     background-color: #fff;
     border-radius: 20px;
@@ -44,13 +37,29 @@ body {
 
 .input-group input {
     background: transparent;
-    border: none;    
+    border: none;
 }
 
 #barraPesquisa .form-control:focus {
     box-shadow: none;
     border-color: transparent;
 }
+
+
+
+
+.hamburger-menu {
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger-menu:hover {
+    color: transparent;
+    border: none;
+}
+
 
 /*HEADER*/
 
