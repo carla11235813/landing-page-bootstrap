@@ -1,39 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/logo_com_fundo.jpeg" type="image/x-icon">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/css/estilos.css">
-    <title>Home</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="home.css">
 
-    <header>
+    <title>Home</title>
+</head>
+<body>
+    <header id="headerFather">
         <nav class="navbar navbar-expand-sm navbarBg">
             <div class="container" id="divPaiNav">
                 <a href="#" 
-                class="navbar-brand d-flex">
-                    <i class="iconeOwlFlight fs-1 me-2"></i>
+                class="logo navbar-brand d-flex">
+                    <img src="img/logo1_1.svg" alt="">
                     OwlFlight
                 </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <button type="button" class="hamburger-menu navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                <div class="collapse navbar-collapse " id="menuNavbar">
                     <div class="navbar-nav" id="navPai">
+                        <div id="redimencionarBarrapesquisa"></div>
+                        <span id="divAcimaBarrapesquisa"></span>
                         <a href="#"class="nav-link">Home</a>
-                        <a href="#" class="nav-link active">Produtos</a>
-                        <a href="#" class="nav-link active">Vendedores</a>
+                        <a href="#" class="nav-link">Produtos</a>
+                        <a href="#" class="nav-link">Vendedores</a>
                         <div class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Categoria</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Categoria</a>
                             <ul class="dropdown-menu">
                             <li><a href="#" class="dropdown-item">produto 1</a></li>
                             <li><a href="#" class="dropdown-item">produto 2</a></li>
@@ -45,21 +42,17 @@
                         <div id="redimencionar"></div>
                         <span id="divAcima"></span>
                     </div>  
-               </div>
-                <form action="" class="d-flex m-auto" id="barraPesquisa">
-                    <div class="input-group">
-                        <input type="search" name="" id="" class="form-control form-control-sm rounded-pill ps-3 pe-0" placeholder="Pesquisar...">
-                        <button type="submit" class="input-group-text border-0 bg-transparent">
-                            <i class="fas fa-search lupa"></i>
-                        </button>
-                    </div>
-                </form>
+                </div>
+                <div id="redimencionar3"></div>
+                <span id="divAcima3"></span>
                 <div id="redimencionar2"></div>
                 <span id="divAcimaNavPai"></span>
             </div>
         </nav>
+        <nav id="redimencionar4"></nav>
+        <span id="navAcima"></span>
     </header>
-
+   
     <div class="carrossel">
         <div id="carouselMain" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -251,9 +244,9 @@
         </div>
    </footer>
 
-    
-    <!-- Optional JavaScript -->
-    <!-- Popper.js first, then Bootstrap JS -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="myJS.js"></script>
+</body>
 </html>
