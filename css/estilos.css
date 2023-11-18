@@ -1,4 +1,15 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html, body {
     overflow-x: hidden;
 }
 
@@ -7,16 +18,25 @@ body {
     background-color: #fff382;
 }
 
+.navbar a {
+    color: black;
+    font-size: 18px;
+}
 
 /* ----------- ICONES ----------- */
 .logo {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-.logo img {
+.logo-img {
     padding-right: 7px;
-    width: 100px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.logo-txt{
+    width: 150px;
+    margin-top: 5px;
 }
 .iconeCar {
     background-image: url('cart3.svg');
@@ -50,10 +70,16 @@ body {
     border-color: transparent;
 }
 
+/* Adicione esta regra para alterar a cor do placeholder */
+.input-group input::placeholder {
+    color: #555; /* Cor desejada para o texto do espaço reservado */
+    font-size: 15px;
+}
 
 
 
 .hamburger-menu {
+    color: transparent;
     padding: 5px;
     border-radius: 50%;
     border: none;
@@ -94,11 +120,12 @@ main {
     height: 150px;
 }
 
+/* FOOTER */
+
 #footer {
     background: #f9f8f8;
     color: #0272F5;
     padding-top: 15px;
-
 }
 
 .footer_coisa {
@@ -110,5 +137,19 @@ main {
     padding-block: 20px;
 }
 
+
 /*-------------------------------------*/
 /*-------------------------------------*/
+
+@media screen and (max-width:560px) {
+    .logo-img {
+        padding-right: 7px;
+        width: 35px;
+        margin-bottom: 5px;
+    }
+    
+    .logo-txt{
+        width: 120px;
+        margin-top: 5px;
+    }
+}
