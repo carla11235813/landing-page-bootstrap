@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+a{
+  text-decoration: none;
+  color: #006aff;
+}
+
+.frame-2{
+  margin: auto;
+  background-color: #ffffff;
+}
+.tela-login {
+  background: #ffffff;
+  margin: auto;
+  padding: 0%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+.rectangle-8 {
+  background-color: #08244C;
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.frame-2 {
+  width: 30%;
+  height: 70%;
+  margin: auto;
+}
+.entrar {
+background: #08244C;
+border-radius: 7px;
+width: 5rem;
+height: 2rem;
+border: none;
+}
+
+.entrar a {
+color: #d9d9d9;
+font-weight: 600;
+}
+
+.entrar a:hover {
+  opacity: 0.90;
+}
+
+.rectangle-7 {
+color: #000000;
+text-align: left;
+
+display: flex;
+
+justify-content: center;
+}
+.rectangle-4 {
+background: #d9d9d9;
+border-radius: 7px;
+width: 15rem;
+height: 1.2rem;
+border: none;
+margin-bottom: 1rem;
+padding: 9px;
+
+}
+#rec-4, #pass{
+display: flex;
+justify-content: center;
+}
+.e-mail {
+color: #000000;
+text-align: left;
+font: 500 20px "Poppins", sans-serif;
+}
+#e-mail{
+margin-top: 1rem;
+}
+.rectangle-5 {
+background: #d9d9d9;
+border: none;
+border-radius: 7px;
+margin-bottom: 1rem;
+width: 15rem;
+height: 1.2rem;
+padding: 9px;
+}
+.senha {
+color: #000000;
+text-align: left;
+font: 500 20px "Poppins", sans-serif;
+
+}
+#key{
+margin-bottom: 1rem;
+}
+
+.esqueceu-a-senha {
+color: #000000;
+text-align: end;
+margin-bottom: 1rem;
+
+}
+
+
+.n-o-tem-um-cadastro-cadastre-se-aqui-span {
+color: #000000;
+text-align: left;
+font: 400 1rem "Poppins", sans-serif;
+}
+
+.login {
+color: #000000;
+text-align: left;
+font: 700 36px "Inter", sans-serif;
+
+}
+.ellipse-1 {
+background: #d9d9d9;
+border-radius: 50%;
+  width: 3rem ;
+  height: 3rem;
+  display: flexbox;
+  justify-content: center;
+  margin-top: 2rem;
+
+}
+.arrow-drop-down {
+  position: relative;
+  top: 0.6rem;
+  left: 0.5rem;
+}
+
+
+.d-asas-ao-seu-neg-cio-com-owl-flight {
+color: #ffffff;
+font: 400 2rem/2.5rem "DM Sans", sans-serif;
+
+}
+#frase{
+  display: flex;
+  margin: auto;
+  margin: 2rem 2rem;
+  position: relative;
+  bottom: 7rem;
+}
+.photo {
+  width: 90%;
+  margin: auto;
+}
+#photo{
+  margin: auto;
+  display: flex;
+  margin-top: 2rem;
+}
+.form{
+background-color: #ffffff;
+margin: 2rem 3rem 5rem 3rem;
+
+}
+.slogan{
+  margin: auto;
+  display: flexbox;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+
+/*responsividade */
+
+@media screen and (max-width: 768px) {
+  .frame-2 {
+    width: 80%;
+    height: auto;
+  }
+
+  .rectangle-8 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .frame-2 {
+    width: 90%;
+    height: auto;
+  }
+
+}
